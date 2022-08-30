@@ -10,4 +10,8 @@
           font-family: 'Apercu';
           src: url("../public/fonts/Apercu Regular.otf");
      }
+     @font-face {
+          font-family: 'WT Monarch Nova';
+          src: url('../public/fonts/WT Monarch Nova Roman.ttf');
+     }
 }

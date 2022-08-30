@@ -4,7 +4,8 @@ import './App.css';
 import { Routes, Route} from "react-router-dom";
 
 // Component Uses
-import Header from './component/Header/Header';
+
+import Navbar from './component/Navbar/Navbar';
 import Home from './component/Home/Home';
 import NotFound from './component/NotFound/NotFound';
 import Reviews from './component/Reviews/Reviews';
@@ -15,7 +16,7 @@ import About from './component/About/About';
 function App() {
   return (
     <section className="color-[#e5e7eb] h-screen">
-      <Header/>
+      <Navbar/>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/home" element={<Home/>}/>

@@ -9,7 +9,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        apercu: ['Apercu']
+        apercu: ['Apercu'],
+        monarch: ['WT Monarch Nova']
       },
       fontSize: {
         '2vw': '2vw'
