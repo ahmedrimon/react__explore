@@ -62,7 +62,7 @@ Of course, Its challanges every moment
 I'm a FRONTEND Developer...
 
 
-# Hi, I'm Katherine! 👋
+# Hlw I'm Rimon! 👋
 
 
 ## 🔗 Links
