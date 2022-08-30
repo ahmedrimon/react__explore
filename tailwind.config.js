@@ -7,7 +7,14 @@ module.exports = {
     screen: {
       'xs': '400px'
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        apercu: ['Apercu']
+      },
+      fontSize: {
+        '2vw': '2vw'
+      }
+    },
   },
   plugins: [],
 }
