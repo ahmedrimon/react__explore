@@ -12,7 +12,7 @@ const Reviews = () => {
 
      return (
           <>
-               <h1 className="text-2vw text-[#91c99f] ml-32">Here are Reviews</h1>
+               <h1 className="3xl:mt-28 sm:text-3xl sm:mt-6 xl:mt-12 text-2vw text-[#91c99f] ml-7">Here are the Reviews</h1>
                <section className="mt-8 w-full">
                     {
                          slicedReviews.map(review => <Review key={review.id} review={review}/>)
