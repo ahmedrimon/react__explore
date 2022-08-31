@@ -13,7 +13,8 @@ module.exports = {
         monarch: ['WT Monarch Nova']
       },
       fontSize: {
-        '2vw': '2vw'
+        '2vw': '2vw',
+        '1.2rem': '1.2rem'
       }
     },
   },
