@@ -8,7 +8,7 @@ import { Routes, Route} from "react-router-dom";
 import Navbar from './component/Navbar/Navbar';
 import Home from './component/Home/Home';
 import NotFound from './component/NotFound/NotFound';
-import Reviews from './component/Reviews/Reviews';
+import AllReviews from './component/AllReviews/AllReviews';
 import Dashboard from './component/Dashboard/Dashboard';
 import Blogs from './component/Blogs/Blogs';
 import About from './component/About/About';
@@ -20,7 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/home" element={<Home/>}/>
-        <Route path="/reviews" element={<Reviews/>}/>
+        <Route path="/allreviews" element={<AllReviews/>}/>
         <Route path="/dashboard" element={<Dashboard/>}/>
         <Route path="/blogs" element={<Blogs/>}/>
         <Route path="/about" element={<About/>}/>
